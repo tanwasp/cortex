@@ -20,3 +20,6 @@
 Cortex.xcodeproj/xcuserdata/tanishwasp.xcuserdatad/xcschemes/xcschememanagement.plist
 xcshareddata/
 Cortex.xcodeproj/project.xcworkspace/xcuserdata/tanishwasp.xcuserdatad/UserInterfaceState.xcuserstate
+
+# CoreML Model
+fastvithd.mlpackage
