@@ -1,0 +1,22 @@
+# Xcode user data (personal settings, UI state, schemes)
+**/xcuserdata/
+
+# Xcode build artifacts and derived data
+**/build/
+**/DerivedData/
+
+# macOS system files
+.DS_Store
+**/.DS_Store
+
+# Other common Xcode ignores (optional but recommended)
+*.swp
+*.lock
+*.tmp
+**/Pods/
+**/Carthage/
+
+# Generated files
+Cortex.xcodeproj/xcuserdata/tanishwasp.xcuserdatad/xcschemes/xcschememanagement.plist
+xcshareddata/
+Cortex.xcodeproj/project.xcworkspace/xcuserdata/tanishwasp.xcuserdatad/UserInterfaceState.xcuserstate
