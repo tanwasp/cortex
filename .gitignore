@@ -1,7 +1,7 @@
 __pycache__/
 .venv/
 env/
-exported-fastvlm-0.5b/
+exported-fastvlm-0.5b*/*
 ml-fastvlm/checkpoints/
 test-images/
 .vscode/
