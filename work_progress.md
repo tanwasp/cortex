@@ -1,0 +1,3 @@
+Progress is being made. The Fast VIT Vision Transformer and LLM have been successfully coded, and the Mac OS app is running, but there seems to be an issue regarding the output of the VLM. It's not making correct classifications for some reason. Either it's not looking at the right window on the screen, or there might be a problem with the cache or just the LLM, the VLM itself, but it's not fully working.
+
+Instead of relying solely and as a first stand on the VLM, I will be trying to make progress with the API, the macOS API, grabbing the tile, grabbing the current application. Potentially using OCR first, which would be less computationally intensive than sending a screenshot to the VLM every time interval.

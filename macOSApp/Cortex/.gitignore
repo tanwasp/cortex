@@ -1,0 +1,35 @@
+# Xcode user data (personal settings, UI state, schemes)
+**/xcuserdata/
+
+# Xcode build artifacts and derived data
+**/build/
+**/DerivedData/
+
+# macOS system files
+.DS_Store
+**/.DS_Store
+
+# Other common Xcode ignores (optional but recommended)
+*.swp
+*.lock
+*.tmp
+**/Pods/
+**/Carthage/
+
+# Generated files
+Cortex.xcodeproj/xcuserdata/
+Cortex.xcodeproj/project.xcworkspace/xcuserdata/
+xcshareddata/
+
+# Model files (too large for git - download separately)
+fastvithd.mlpackage/
+*.safetensors
+model.safetensors
+config.json
+tokenizer.json
+tokenizer_config.json
+vocab.json
+merges.txt
+added_tokens.json
+special_tokens_map.json
+exported-fastvlm-0.5b-4bit/

@@ -7,7 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7A779E422E9AF57000A1DFC7 /* fastvithd.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 7A779E412E9AF57000A1DFC7 /* fastvithd.mlpackage */; };
+		7A779E592E9B069C00A1DFC7 /* fastvithd.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 7A779E582E9B069C00A1DFC7 /* fastvithd.mlpackage */; };
+		7A7F08CD2F08CAD3002151A8 /* MLX in Frameworks */ = {isa = PBXBuildFile; productRef = 7A7F08CC2F08CAD3002151A8 /* MLX */; };
+		7A7F08CF2F08CAD3002151A8 /* MLXNN in Frameworks */ = {isa = PBXBuildFile; productRef = 7A7F08CE2F08CAD3002151A8 /* MLXNN */; };
+		7A7F08D12F08CAD3002151A8 /* MLXRandom in Frameworks */ = {isa = PBXBuildFile; productRef = 7A7F08D02F08CAD3002151A8 /* MLXRandom */; };
+		7AC0347B2F2E8EAA009A9DA4 /* model.safetensors in Resources */ = {isa = PBXBuildFile; fileRef = 7AC034762F2E8EAA009A9DA4 /* model.safetensors */; };
+		7AC0347C2F2E8EAA009A9DA4 /* vocab.json in Resources */ = {isa = PBXBuildFile; fileRef = 7AC0347A2F2E8EAA009A9DA4 /* vocab.json */; };
+		7AC0347D2F2E8EAA009A9DA4 /* added_tokens.json in Resources */ = {isa = PBXBuildFile; fileRef = 7AC034732F2E8EAA009A9DA4 /* added_tokens.json */; };
+		7AC0347E2F2E8EAA009A9DA4 /* merges.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7AC034752F2E8EAA009A9DA4 /* merges.txt */; };
+		7AC0347F2F2E8EAA009A9DA4 /* tokenizer.json in Resources */ = {isa = PBXBuildFile; fileRef = 7AC034782F2E8EAA009A9DA4 /* tokenizer.json */; };
+		7AC034802F2E8EAA009A9DA4 /* config.json in Resources */ = {isa = PBXBuildFile; fileRef = 7AC034742F2E8EAA009A9DA4 /* config.json */; };
+		7AC034812F2E8EAA009A9DA4 /* tokenizer_config.json in Resources */ = {isa = PBXBuildFile; fileRef = 7AC034792F2E8EAA009A9DA4 /* tokenizer_config.json */; };
+		7AC034822F2E8EAA009A9DA4 /* special_tokens_map.json in Resources */ = {isa = PBXBuildFile; fileRef = 7AC034772F2E8EAA009A9DA4 /* special_tokens_map.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +42,15 @@
 		7A779E142E9AE7E500A1DFC7 /* Cortex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cortex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A779E242E9AE7E600A1DFC7 /* CortexTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CortexTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A779E2E2E9AE7E600A1DFC7 /* CortexUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CortexUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7A779E412E9AF57000A1DFC7 /* fastvithd.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = fastvithd.mlpackage; sourceTree = "<group>"; };
+		7A779E582E9B069C00A1DFC7 /* fastvithd.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = fastvithd.mlpackage; sourceTree = "<group>"; };
+		7AC034732F2E8EAA009A9DA4 /* added_tokens.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = added_tokens.json; sourceTree = "<group>"; };
+		7AC034742F2E8EAA009A9DA4 /* config.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = config.json; sourceTree = "<group>"; };
+		7AC034752F2E8EAA009A9DA4 /* merges.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = merges.txt; sourceTree = "<group>"; };
+		7AC034762F2E8EAA009A9DA4 /* model.safetensors */ = {isa = PBXFileReference; lastKnownFileType = file; path = model.safetensors; sourceTree = "<group>"; };
+		7AC034772F2E8EAA009A9DA4 /* special_tokens_map.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = special_tokens_map.json; sourceTree = "<group>"; };
+		7AC034782F2E8EAA009A9DA4 /* tokenizer.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = tokenizer.json; sourceTree = "<group>"; };
+		7AC034792F2E8EAA009A9DA4 /* tokenizer_config.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = tokenizer_config.json; sourceTree = "<group>"; };
+		7AC0347A2F2E8EAA009A9DA4 /* vocab.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = vocab.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -57,6 +76,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A7F08CF2F08CAD3002151A8 /* MLXNN in Frameworks */,
+				7A7F08D12F08CAD3002151A8 /* MLXRandom in Frameworks */,
+				7A7F08CD2F08CAD3002151A8 /* MLX in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,7 +106,15 @@
 				7A779E272E9AE7E600A1DFC7 /* CortexTests */,
 				7A779E312E9AE7E600A1DFC7 /* CortexUITests */,
 				7A779E152E9AE7E500A1DFC7 /* Products */,
-				7A779E412E9AF57000A1DFC7 /* fastvithd.mlpackage */,
+				7A779E582E9B069C00A1DFC7 /* fastvithd.mlpackage */,
+				7AC034732F2E8EAA009A9DA4 /* added_tokens.json */,
+				7AC034742F2E8EAA009A9DA4 /* config.json */,
+				7AC034752F2E8EAA009A9DA4 /* merges.txt */,
+				7AC034762F2E8EAA009A9DA4 /* model.safetensors */,
+				7AC034772F2E8EAA009A9DA4 /* special_tokens_map.json */,
+				7AC034782F2E8EAA009A9DA4 /* tokenizer.json */,
+				7AC034792F2E8EAA009A9DA4 /* tokenizer_config.json */,
+				7AC0347A2F2E8EAA009A9DA4 /* vocab.json */,
 			);
 			sourceTree = "<group>";
 		};
@@ -118,6 +148,9 @@
 			);
 			name = Cortex;
 			packageProductDependencies = (
+				7A7F08CC2F08CAD3002151A8 /* MLX */,
+				7A7F08CE2F08CAD3002151A8 /* MLXNN */,
+				7A7F08D02F08CAD3002151A8 /* MLXRandom */,
 			);
 			productName = Cortex;
 			productReference = 7A779E142E9AE7E500A1DFC7 /* Cortex.app */;
@@ -201,6 +234,9 @@
 			);
 			mainGroup = 7A779E0B2E9AE7E500A1DFC7;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				7A7F08CB2F08CAD3002151A8 /* XCRemoteSwiftPackageReference "mlx-swift" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 7A779E152E9AE7E500A1DFC7 /* Products */;
 			projectDirPath = "";
@@ -218,6 +254,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AC0347B2F2E8EAA009A9DA4 /* model.safetensors in Resources */,
+				7AC0347C2F2E8EAA009A9DA4 /* vocab.json in Resources */,
+				7AC0347D2F2E8EAA009A9DA4 /* added_tokens.json in Resources */,
+				7AC0347E2F2E8EAA009A9DA4 /* merges.txt in Resources */,
+				7AC0347F2F2E8EAA009A9DA4 /* tokenizer.json in Resources */,
+				7AC034802F2E8EAA009A9DA4 /* config.json in Resources */,
+				7AC034812F2E8EAA009A9DA4 /* tokenizer_config.json in Resources */,
+				7AC034822F2E8EAA009A9DA4 /* special_tokens_map.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,7 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A779E422E9AF57000A1DFC7 /* fastvithd.mlpackage in Sources */,
+				7A779E592E9B069C00A1DFC7 /* fastvithd.mlpackage in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -554,6 +598,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7A7F08CB2F08CAD3002151A8 /* XCRemoteSwiftPackageReference "mlx-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ml-explore/mlx-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.29.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7A7F08CC2F08CAD3002151A8 /* MLX */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7A7F08CB2F08CAD3002151A8 /* XCRemoteSwiftPackageReference "mlx-swift" */;
+			productName = MLX;
+		};
+		7A7F08CE2F08CAD3002151A8 /* MLXNN */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7A7F08CB2F08CAD3002151A8 /* XCRemoteSwiftPackageReference "mlx-swift" */;
+			productName = MLXNN;
+		};
+		7A7F08D02F08CAD3002151A8 /* MLXRandom */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7A7F08CB2F08CAD3002151A8 /* XCRemoteSwiftPackageReference "mlx-swift" */;
+			productName = MLXRandom;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7A779E0C2E9AE7E500A1DFC7 /* Project object */;
 }
